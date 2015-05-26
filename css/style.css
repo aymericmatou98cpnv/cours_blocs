@@ -1,0 +1,120 @@
+/*code CSS am*/
+/*--------Le menu du haut de la page (contact, portfolio...)-------*/	
+.nav-top {
+	float: right;
+	font-family:Arial;
+	font-weight: 15px;
+	line-height: 80px;
+	font-size:15pt;
+}
+
+/*--------sert au initial du haut de la page-------*/	
+.nav {
+	float: left;
+	font-weight:15px;
+}
+
+/*--------sert a l'entête-------*/	
+#header {
+	height: 110px;
+	margin-top:25px;
+}
+/*--------corps du site-------*/
+body{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+	background-color: #f0f0f0;/*--------correspondence au gris utiliser dans le PSD-------*/
+	
+}
+
+/*--------pied de page-------*/
+#footer{
+	margin-top: 200px;
+	text-align: right;
+	border-top: 2px solid black;
+}
+	
+/*--------titre 1-------*/
+h1 {
+	float:center;	
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:40px;
+   }
+   
+/*--------titre 2-------*/
+h2{
+	float:center;
+    font-weight:bold;
+}
+
+/*--------pied de page-------*/
+#bloc2
+{
+	text-align: left;
+}
+
+/*---------------*/
+label {
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+}
+
+/*--------pied de page-------*/
+input[type="text"], textarea {
+	border: 1px solid black;
+	width: 380px;
+	height:184px;
+	box-sizing:border-box;
+}
+
+/*--------mise en forme du formulaire-------*/
+#form {
+	width: 540px;
+	margin-left: 160px;
+	font-size:15pt; 
+}
+
+/*--------le label du formulaire-------*/	
+#form label {
+	margin-right: 20px;
+}
+
+/*--------le cadre de nom dans le formulaire-------*/	
+#nom{
+	width:380px;
+	height:42px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+}
+
+/*--------le cadre de prénom dans le formulaire-------*/
+#prenom{
+	width:380;
+	height:42px;
+	margin-bottom:20px;
+	box-sizing:border-box;
+}
+
+/*--------le cadre de message dans le formulaire-------*/
+#message label{
+	height:182px;
+	vertical-align:top;
+	box-sizing:border-box;
+
+}
+
+/*--------le cadre de sexe dans le formulaire-------*/
+#sexe{
+	margin-bottom:20px;
+}
+
+/*--------le boutton d'envoi-------*/
+input[type="submit"] {
+	background-color: transparent;
+	border: 1px;
+	margin-left: 450px;
+}
