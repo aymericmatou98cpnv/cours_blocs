@@ -31,17 +31,39 @@ body{
 
 /*--------pied de page-------*/
 #footer{
-	margin-top: 200px;
+	margin-top: 2500px;
 	text-align: right;
 	border-top: 2px solid black;
 }
-	
+#bloquetest{
+position: relative;
+
+}
+#bloc1{
+	position: absolute;
+	z-index :1;
+}
+#paragraphe{
+position: absolute;
+width:300px;
+height:270px;
+padding:25px;
+border:25 px solid navy;
+margin:20px;
+background-color:white;
+top:140px;
+left:650px;
+box-sizing:border-box;
+font-size:10pt;
+z-index:2;
+} 
 /*--------titre 1-------*/
 h1 {
 	float:center;	
 	font-weight:bold;
 	text-decoration:underline;
 	font-size:40px;
+	margin-top:0px;
    }
    
 /*--------titre 2-------*/
@@ -50,10 +72,59 @@ h2{
     font-weight:bold;
 }
 
+/*--------titre 2-------*/
+h5{
+	float:center;	
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:40px;
+	margin-bottom:50px;
+}
+
 /*--------pied de page-------*/
-#bloc2
+
+
+.img-gauche 
 {
-	text-align: left;
+	height: 400px;
+	position: relative;
+	margin-bottom:50px;
+}
+
+
+.img-gauche img {
+	position: absolute;
+	left: 0px;
+}
+
+.texte-gauche
+{
+	position:absolute;
+	right:0px;
+	width:300px;
+	text-align:justify right;
+}
+
+.img-droite 
+{
+	height: 400px;
+	position: relative;
+	margin-bottom:50px;
+	text-align:right;
+}
+
+
+.img-droite img {
+	position: absolute;
+	right: 0px;
+}
+
+.texte-droit
+{
+	position:absolute;
+	left:0px;
+	width:300px;
+	
 }
 
 /*---------------*/
@@ -65,7 +136,6 @@ label {
 
 /*--------pied de page-------*/
 input[type="text"], textarea {
-	border: 1px solid black;
 	width: 380px;
 	height:184px;
 	box-sizing:border-box;
@@ -117,4 +187,16 @@ input[type="submit"] {
 	background-color: transparent;
 	border: 1px;
 	margin-left: 450px;
+}
+ 
+a:hover {
+color:red;
+}
+a:link{
+color:black;
+text-decoration:none;
+}
+
+.current {
+font-weight: bold;
 }
