@@ -5,7 +5,7 @@
 	font-family:Arial;
 	font-weight: 15px;
 	line-height: 80px;
-	font-size:15pt;
+	font-size:0.9375 em;/*15/16*/
 }
 
 /*--------sert au initial du haut de la page-------*/	
@@ -21,7 +21,7 @@
 }
 /*--------corps du site-------*/
 body{
-	width: 960px;
+	width: 64%;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: arial;
@@ -45,7 +45,7 @@ position: relative;
 }
 #paragraphe{
 position: absolute;
-width:300px;
+width:20%;
 height:270px;
 padding:25px;
 border:25 px solid navy;
@@ -54,7 +54,7 @@ background-color:white;
 top:140px;
 left:650px;
 box-sizing:border-box;
-font-size:10pt;
+font-size:0.937em;/*15/16*/
 z-index:2;
 } 
 /*--------titre 1-------*/
@@ -77,8 +77,9 @@ h5{
 	float:center;	
 	font-weight:bold;
 	text-decoration:underline;
-	font-size:40px;
+	font-size:2.5em;/*40/16*/
 	margin-bottom:50px;
+	margin-top:0px;
 }
 
 /*--------pied de page-------*/
@@ -95,14 +96,15 @@ h5{
 .img-gauche img {
 	position: absolute;
 	left: 0px;
+	max-width:100%;
 }
 
 .texte-gauche
 {
 	position:absolute;
-	right:0px;
-	width:300px;
+	width:;
 	text-align:justify right;
+	left:66.6%;
 }
 
 .img-droite 
@@ -111,51 +113,65 @@ h5{
 	position: relative;
 	margin-bottom:50px;
 	text-align:right;
-}
+	max-width:100%;
+	margin-bottom:3%;
+	}
 
 
 .img-droite img {
 	position: absolute;
 	right: 0px;
+	max-width:100%;
+	margin-bottom:3%;
 }
+.img-containers{
+width:66.6%;
+}
+
+.img-containers img{
+width:100%;
+}
+
 
 .texte-droit
 {
 	position:absolute;
 	left:0px;
-	width:300px;
+	width:20%;
 	
 }
 
 /*---------------*/
 label {
 	display: inline-block;
-	width: 140px;
-	text-align: right;
+	width:25.9%;
+	text-align: center;
 }
 
 /*--------pied de page-------*/
 input[type="text"], textarea {
-	width: 380px;
+	width:25.3%;
 	height:184px;
 	box-sizing:border-box;
 }
 
 /*--------mise en forme du formulaire-------*/
 #form {
-	width: 540px;
-	margin-left: 160px;
-	font-size:15pt; 
+	width: 56.25%;
+	margin-left: 16.6%;
+	font-size:0.9375em; 
+	border: 1px solid red;
 }
 
 /*--------le label du formulaire-------*/	
-#form label {
+/*#form label {
 	margin-right: 20px;
 }
+*/
 
 /*--------le cadre de nom dans le formulaire-------*/	
 #nom{
-	width:380px;
+	width:70%;
 	height:42px;
 	margin-bottom:20px;
 	box-sizing:border-box;
@@ -163,7 +179,7 @@ input[type="text"], textarea {
 
 /*--------le cadre de prénom dans le formulaire-------*/
 #prenom{
-	width:380;
+	width:70%;
 	height:42px;
 	margin-bottom:20px;
 	box-sizing:border-box;
@@ -171,14 +187,17 @@ input[type="text"], textarea {
 
 /*--------le cadre de message dans le formulaire-------*/
 #message label{
-	height:182px;
 	vertical-align:top;
 	box-sizing:border-box;
-
+	width:70%;
+	
+	}
+textarea{
+width:70%;
 }
-
 /*--------le cadre de sexe dans le formulaire-------*/
 #sexe{
+
 	margin-bottom:20px;
 }
 
